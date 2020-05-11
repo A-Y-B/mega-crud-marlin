@@ -25,9 +25,10 @@ $users = $statement->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>test/index.php</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="my.css">
+
+    <title>mega-crud-marlin/index.php</title>
 </head>
 
 <body>
