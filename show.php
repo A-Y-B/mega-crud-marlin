@@ -1,4 +1,5 @@
 <?php
+var_dump($_GET);
 //  SELECT * FROM users WHERE id = :id   ---   выбрать всё из таблици users где id = :id
 //  соединение с базой
 $pdo = new PDO('mysql:host=localhost;dbname=sandbox;', "root", "");
