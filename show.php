@@ -1,5 +1,5 @@
 <?php
-var_dump($_GET);
+//var_dump($_GET);
 //  SELECT * FROM users WHERE id = :id   ---   выбрать всё из таблици users где id = :id
 //  соединение с базой
 $pdo = new PDO('mysql:host=localhost;dbname=sandbox;', "root", "");
@@ -34,7 +34,7 @@ $user = $statement->fetch(PDO::FETCH_ASSOC);
     <div class="row">
         <div class="col-md-8">
 
-            <h1>Show User - <?php echo $user['username'] ?></h1>
+            <h1>Show User - <?php echo $user['username']; ?></h1>
 
         </div>
     </div>
